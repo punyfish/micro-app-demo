@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "yarn && npm-run-all --serial install:*",
+    "install:main-angular14": "cd main_apps/main-angular14 && yarn",
     "install:main-angular11": "cd main_apps/angular11 && yarn",
     "install:main-nextjs11": "cd main_apps/nextjs11 && yarn",
     "install:main-nuxtjs2": "cd main_apps/nuxtjs2 && yarn",
@@ -15,6 +16,7 @@
     "install:main-vue2": "cd main_apps/vue2 && yarn",
     "install:main-vue3": "cd main_apps/vue3 && yarn",
     "install:child-angular11": "cd child_apps/angular11 && yarn",
+    "install:child-angular14": "cd child_apps/child-angular14 && yarn",
     "install:child-nextjs11": "cd child_apps/nextjs11 && yarn",
     "install:child-nuxtjs2": "cd child_apps/nuxtjs2 && yarn",
     "install:child-react16": "cd child_apps/react16 && yarn",

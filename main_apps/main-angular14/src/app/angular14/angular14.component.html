@@ -1,0 +1,15 @@
+<div>
+    <micro-app
+      name='appname-angular14'
+      [attr.url]='url'
+      baseroute='/main-angular14/app-angular14'
+      [data]='microAppData'
+      (created)='handleCreate()'
+      (beforemount)='handleBeforeMount()'
+      (mounted)='handleMount()'
+      (unmount)='handleUnmount()'
+      (error)='handleError()'
+      (datachange)='handleDataChange($any($event))'
+    ></micro-app>
+  </div>
+  

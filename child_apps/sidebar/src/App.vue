@@ -10,6 +10,30 @@
         <span slot="title">首页</span>
       </el-menu-item>
       <!-- 菜单(el-submenu) index为子应用名称，子菜单(el-menu-item) index为路由地址 -->
+      <el-submenu index="appname-angular11">
+        <template slot="title">
+          <span class='submenu-text'>child-angular11</span>
+        </template>
+        <el-menu-item index="/app-angular11">
+          <span class='menu-item-text'>home</span>
+        </el-menu-item>
+        <el-menu-item index="/app-angular11/page2">
+          <span class='menu-item-text'>page2</span>
+        </el-menu-item>
+      </el-submenu>
+
+      <el-submenu index="appname-angular14">
+        <template slot="title">
+          <span class='submenu-text'>child-angular14</span>
+        </template>
+        <el-menu-item index="/app-angular14">
+          <span class='menu-item-text'>home</span>
+        </el-menu-item>
+        <el-menu-item index="/app-angular14/page2">
+          <span class='menu-item-text'>page2</span>
+        </el-menu-item>
+      </el-submenu>
+
       <el-submenu index="appname-vue2">
         <template slot="title">
           <span class='submenu-text'>child-vue2</span>
@@ -65,17 +89,7 @@
           <span class='menu-item-text'>page2</span>
         </el-menu-item>
       </el-submenu>
-      <el-submenu index="appname-angular11">
-        <template slot="title">
-          <span class='submenu-text'>child-angular11</span>
-        </template>
-        <el-menu-item index="/app-angular11">
-          <span class='menu-item-text'>home</span>
-        </el-menu-item>
-        <el-menu-item index="/app-angular11/page2">
-          <span class='menu-item-text'>page2</span>
-        </el-menu-item>
-      </el-submenu>
+      
       <el-submenu index="appname-nextjs11">
         <template slot="title">
           <span class='submenu-text'>child-nextjs11</span>
